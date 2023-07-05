@@ -1,0 +1,46 @@
+:root {
+  background-color: black;
+}
+:root p,
+:root h1 {
+  color: aqua;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(32, 148, 142);
+  text-align: center;
+}
+.memory-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.memory-box {
+  border: 1px solid rgb(152, 240, 255);
+  height: 10rem;
+  width: 10rem;
+  background-color: cadetblue;
+}
+.memory-box:hover {
+  background-color: rgb(56, 176, 180);
+}
+button {
+  background-color: rgb(79, 150, 146);
+  border: 1px solid rgb(0, 255, 242);
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 19px;
+}
+a:hover {
+  color: rgb(42, 250, 0);
+}
+footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
