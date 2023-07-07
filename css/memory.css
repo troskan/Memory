@@ -24,6 +24,10 @@ header {
   width: 10rem;
   background-color: cadetblue;
 }
+img {
+  width: 200px;
+  height: 200px;
+}
 .memory-box:hover {
   background-color: rgb(56, 176, 180);
 }
